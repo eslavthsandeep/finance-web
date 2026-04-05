@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "name": "Alice Admin",
+      "email": "admin@finance.dev",
+      "password": "$2b$10$DzFQwDMWszAnpQ3ThugoQuUq8.cGCpNsd6X.Hxc6IADhvvjvOUiG6",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-04-04T11:29:38.820Z",
+      "updatedAt": "2026-04-04T11:29:38.821Z",
+      "deletedAt": null
+    },
+    {
+      "id": "37aeff05-fd06-4b1d-bcdd-9857fc4aa4eb",
+      "name": "Bob Analyst",
+      "email": "analyst@finance.dev",
+      "password": "$2b$10$DzFQwDMWszAnpQ3ThugoQuUq8.cGCpNsd6X.Hxc6IADhvvjvOUiG6",
+      "role": "analyst",
+      "status": "active",
+      "createdAt": "2026-04-04T11:29:38.822Z",
+      "updatedAt": "2026-04-04T11:29:38.822Z",
+      "deletedAt": null
+    },
+    {
+      "id": "67b65e22-e12e-4bb0-b3ac-e3110e853a76",
+      "name": "Carol Viewer",
+      "email": "viewer@finance.dev",
+      "password": "$2b$10$DzFQwDMWszAnpQ3ThugoQuUq8.cGCpNsd6X.Hxc6IADhvvjvOUiG6",
+      "role": "viewer",
+      "status": "active",
+      "createdAt": "2026-04-04T11:29:38.823Z",
+      "updatedAt": "2026-04-04T11:29:38.823Z",
+      "deletedAt": null
+    }
+  ],
+  "records": [
+    {
+      "id": "ed881f4f-a6c9-4e83-a4c0-2dc806e94f3c",
+      "type": "income",
+      "amount": 5000,
+      "category": "Salary",
+      "notes": "Monthly salary",
+      "date": "2024-03-01",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.824Z",
+      "updatedAt": "2026-04-04T11:29:38.824Z",
+      "deletedAt": null
+    },
+    {
+      "id": "eb8d8878-e020-4b71-9e29-fa76dfcfac72",
+      "type": "income",
+      "amount": 800,
+      "category": "Freelance",
+      "notes": "Design project",
+      "date": "2024-03-05",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.824Z",
+      "updatedAt": "2026-04-04T11:29:38.824Z",
+      "deletedAt": null
+    },
+    {
+      "id": "7af7439c-31e4-489b-aa3a-50ef5749ecb6",
+      "type": "expense",
+      "amount": 1200,
+      "category": "Rent",
+      "notes": "Monthly rent",
+      "date": "2024-03-03",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.825Z",
+      "updatedAt": "2026-04-04T11:29:38.825Z",
+      "deletedAt": null
+    },
+    {
+      "id": "0d486f51-586f-45b6-8627-bdbdc5e57990",
+      "type": "expense",
+      "amount": 200,
+      "category": "Groceries",
+      "notes": "Weekly groceries",
+      "date": "2024-03-07",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.825Z",
+      "updatedAt": "2026-04-04T11:29:38.825Z",
+      "deletedAt": null
+    },
+    {
+      "id": "0447ebfb-dd6e-4de5-9606-9a014c7ed180",
+      "type": "expense",
+      "amount": 150,
+      "category": "Utilities",
+      "notes": "Electricity bill",
+      "date": "2024-03-08",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.826Z",
+      "updatedAt": "2026-04-04T11:29:38.826Z",
+      "deletedAt": null
+    },
+    {
+      "id": "e2dfbdab-0662-484e-8036-ec508ad976a5",
+      "type": "income",
+      "amount": 350,
+      "category": "Investment",
+      "notes": "Dividend income",
+      "date": "2024-03-10",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.826Z",
+      "updatedAt": "2026-04-04T11:29:38.826Z",
+      "deletedAt": null
+    },
+    {
+      "id": "23f7c79c-809c-456e-ab58-15fdcdb9077f",
+      "type": "expense",
+      "amount": 80,
+      "category": "Transport",
+      "notes": "Monthly bus pass",
+      "date": "2024-03-02",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.827Z",
+      "updatedAt": "2026-04-04T11:29:38.827Z",
+      "deletedAt": null
+    },
+    {
+      "id": "4da2a345-558a-4a87-a17e-b594a0b6f57d",
+      "type": "expense",
+      "amount": 60,
+      "category": "Dining",
+      "notes": "Team lunch",
+      "date": "2024-03-12",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.827Z",
+      "updatedAt": "2026-04-04T11:29:38.827Z",
+      "deletedAt": null
+    },
+    {
+      "id": "a5a6314d-2431-479b-a234-1b4ddc2778df",
+      "type": "income",
+      "amount": 5000,
+      "category": "Salary",
+      "notes": "Monthly salary",
+      "date": "2024-04-01",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.828Z",
+      "updatedAt": "2026-04-04T11:29:38.828Z",
+      "deletedAt": null
+    },
+    {
+      "id": "e79c56ec-1cd0-4a81-bef5-d6dba9749fd6",
+      "type": "expense",
+      "amount": 1200,
+      "category": "Rent",
+      "notes": "Monthly rent",
+      "date": "2024-04-03",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.828Z",
+      "updatedAt": "2026-04-04T11:29:38.828Z",
+      "deletedAt": null
+    },
+    {
+      "id": "a333f636-d966-4f43-87c0-249d9022d3b0",
+      "type": "expense",
+      "amount": 300,
+      "category": "Groceries",
+      "notes": "Monthly groceries",
+      "date": "2024-04-09",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.829Z",
+      "updatedAt": "2026-04-04T11:29:38.829Z",
+      "deletedAt": null
+    },
+    {
+      "id": "45f73c86-0907-4b17-bf57-f53d5ee20204",
+      "type": "income",
+      "amount": 500,
+      "category": "Freelance",
+      "notes": "Logo design",
+      "date": "2024-04-15",
+      "createdBy": "1b603ece-49f2-4e7f-b10c-d6ed5ded6195",
+      "createdAt": "2026-04-04T11:29:38.830Z",
+      "updatedAt": "2026-04-04T11:29:38.830Z",
+      "deletedAt": null
+    }
+  ]
+}
